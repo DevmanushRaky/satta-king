@@ -17,8 +17,10 @@ function DataList() {
       // Update the data with new values here (e.g., from an API).
     }, 1000); // Update every second
 
+    console.log(setData)  // just for remove warning
     // Cleanup the interval on unmount
     return () => clearInterval(timer);
+
   }, []);
 
   // Create a function to get the month name, date, and time from the currentDateTime
@@ -39,7 +41,7 @@ function DataList() {
       <p className='current-time'>{getCurrentDateTimeString()}</p>
       <ul type="none">
         {data.map((item, index) => (
-          <li  className="current-city" key={index}>
+          <li className="current-city" key={index}>
             <strong>{item.location}: {item.value}</strong>
           </li>
         ))}
