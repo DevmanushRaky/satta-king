@@ -1,0 +1,32 @@
+.carousel-image{
+    height: auto!important;
+    z-index: -0.8;
+    opacity: 0.7;
+}
+
+.carousel-text{
+    margin:10px;
+    padding: 5px;
+    color: rgb(255, 251, 251);
+    background-color: rgb(162, 156, 156);
+   
+}
+
+.our-product-heading{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common-card{
+    margin: 8px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.common-card:hover{
+    transition:ease-out 0.7s ;
+    -webkit-box-shadow: 3px 5px 17px 6px rgba(0,0,0,0.28);
+    -moz-box-shadow: 3px 5px 17px 6px rgba(0,0,0,0.28);
+    box-shadow: 3px 5px 17px 6px rgba(0,0,0,0.28);
+}
+

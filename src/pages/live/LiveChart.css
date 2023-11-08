@@ -1,0 +1,18 @@
+.live-chart {
+  background-image: linear-gradient(#254344, #62615c63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.current-time {
+    font-size: 30px;
+  color: yellow;
+}
+
+.current-city{
+    padding: 10px;
+    font-size: 25px;
+    color: #05f3e3;
+}
