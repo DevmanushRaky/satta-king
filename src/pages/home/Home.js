@@ -9,6 +9,7 @@ import { Button } from 'react-bootstrap';
 import LiveChart from "../live/LiveChart"
   ;
 import Livetable from '../live/Livetable';
+import LiveResult from '../live/LiveResult';
 
 
 function Home() {
@@ -187,8 +188,11 @@ function Home() {
       </div>
 
 
-      {/* Result Board  */}
+      {/* Live Table   */}
       <Livetable />
+
+      {/* Live Result  */}
+      <LiveResult/>
 
     </>
   </Helmet>
